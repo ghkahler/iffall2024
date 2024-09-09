@@ -1,0 +1,22 @@
+.title{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+
+
+p{
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 100px;
+    line-height:30px;
+
+}
+
+.speaker{
+    font-weight: bold;
+}
+
