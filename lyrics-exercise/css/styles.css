@@ -1,0 +1,32 @@
+p {
+    color:whitesmoke;
+    font-size: 16px;
+    font-family:monospace;
+    text-align: center;
+
+}
+
+.bigtitle{
+    color: lightblue;
+    font-size: 150px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: -10px;
+}
+
+.littletitle{
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 60px;
+}
+
+.footer{
+    color: orange;
+    font-size: 12px;
+    font-family:monospace;
+    font-weight:bold;
+    text-align:center;
+}
