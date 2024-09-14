@@ -1,0 +1,104 @@
+
+html{
+    color:rgb(39, 37, 37);
+    font-family: "Crimson Text", serif;
+    font-size: 18px;
+}
+
+.bigtitle{
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+
+body{
+    margin: 10%;
+}
+
+section{
+    margin-bottom: 4rem;
+}
+
+
+h1{
+    color: rgb(39, 39, 39);
+    letter-spacing: -0.02em;
+    text-transform:capitalize;
+    text-indent: -1rem;
+    font-family:"Crimson Text", serif;
+}
+
+h2{
+    color: rgb(90, 88, 88);
+    letter-spacing: -0.02em;
+    text-transform:capitalize;
+    text-indent: -1rem;
+    font-family:"Crimson Text", serif;
+    margin-bottom: 0%;
+}
+
+h3{
+    color: rgb(167, 167, 167);
+    font-size: 15px;
+    text-indent: -1rem;
+}
+
+
+p{
+    font-size:22pt;
+    line-height: 1.4;
+    color:rgb(63, 138, 192);
+    margin-top: -0.5rem;
+    
+}
+
+
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .crimson-text-bold {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .crimson-text-regular-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+.styledwide{
+    letter-spacing: 0.3em;
+}
+  
+.styledcondensed{
+    letter-spacing: -.06em;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.overline{
+    text-decoration:overline;
+}
+
+.line-through{
+    text-decoration:line-through;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
