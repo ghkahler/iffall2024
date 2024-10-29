@@ -1,0 +1,520 @@
+<html>
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Buttons &mdash; Grace Kahler </title>
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Varela+Round&display=swap" rel="stylesheet">
+
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/ce876e6990.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Vina+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bokor&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Vina+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Gabarito:wght@400..900&family=Varela+Round&display=swap" rel="stylesheet">
+
+		
+		<style>
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: rgb(46,191,236); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+			}
+
+			a#btn_indiegogo {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all .2s;
+			}
+
+			a#btn_indiegogo:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: #eb1478;
+				transition: all .5s;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+			}
+
+			a#btn_indiegogo:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_indiegogo span {
+				position: relative;
+				z-index: 10;
+			}
+
+            a#btn_newyorker {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #000000;
+				font-family: "Libre Caslon Text", serif;
+				font-size: 20px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: 1px;
+				transition: all .2s;
+			}
+
+			a#btn_newyorker:hover {
+				background-color: #000000;
+                color: #ffffff;
+			}
+
+            a#btn_moo {
+		
+                display: inline-block;
+				height: 60px;
+				box-sizing: border-box;
+				border-radius: 15px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0px 30px;
+				background-color: #0a834f;
+                border: #c9de96;
+				color: #fff;
+				font-size: 30px;
+				font-family: "Varela Round", sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_moo:hover {
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100;Green+3D+%231 */
+            background: linear-gradient(to bottom,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+			}
+
+            
+            a#btn_nike {
+            position: relative;
+            display: inline-block;
+            height: 60px;
+            box-sizing: border-box;
+            border-radius: 30px;
+            margin: auto;
+            margin-top: 105px;
+            padding: 10px 30px 0px 30px;
+            background-color: #000000;
+            border: none;
+            color: #fff;
+            font-size: 35px;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            cursor:pointer;
+            z-index: 1;
+	
+        }
+
+                a#btn_nike::before {
+                    content:"";
+                    position:absolute;
+                    top:0;
+                    left:0;
+                    width:0%;
+                    height: 100%;
+                    transition: width .3s ease-in-out;
+                    background-color:#e6e5e5;
+                    border-radius: 0.25rem;
+                    z-index: -1;
+			}
+            a#btn_nike:hover {
+				color: #232f3e;
+			}
+
+			a#btn_nike:hover::before {
+				width:100%
+			}
+
+            a#btn_cartoonnetwork {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 0px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #ffffff;
+				color: #000000;
+				text-align: center;
+				font-size: 60px;
+                font-family:"Vina Sans", sans-serif;
+				transition: all .2s;
+			}
+
+			a#btn_cartoonnetwork:hover {			
+                -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(28,104,255,0); 
+                box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(28,104,255,0);
+                }
+			
+            a#btn_lyft {
+            position: relative;
+            display: inline-block;
+            height: 60px;
+            box-sizing: border-box;
+            border-radius: 30px;
+            margin: auto;
+            margin-top: 105px;
+            padding: 10px 30px 0px 30px;
+            background-color: #ffd0f5;
+            border: none;
+            color: #ff00ae;
+            font-size: 35px;
+            font-family: "montserrat", sans-serif;
+            font-weight: bolder;
+            text-decoration: none;
+            cursor:pointer;
+            z-index: 1;
+	
+        }
+
+                a#btn_lyft::before {
+                    content:"";
+                    position:absolute;
+                    top:0;
+                    left:0;
+                    width:100%;
+                    height: 0%;
+                    transition: height .3s ease-in-out;
+                    background-color:#cd05ff;
+                    border-radius: 30px;
+                    z-index: -1;
+			}
+            a#btn_lyft:hover {
+				color: #ffffff;
+			}
+
+			a#btn_lyft:hover::before {
+				height:100%
+			}
+        
+            a#btn_bissingers {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #000000;
+				font-family:"Bokor", system-ui;
+				font-size: 20px;
+				font-weight: bold;
+				text-decoration: none;
+				letter-spacing: 1px;
+				transition: all .2s;
+			}
+
+			a#btn_bissingers:hover {
+				background-color: #ffbb00;
+                color: #ffffff;
+                -webkit-box-shadow: -10px 0px 13px -7px #ef940c, 10px 0px 13px -7px #ff5900, 5px 5px 15px 5px rgb(243, 202, 38); 
+                box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(255,208,18,0);
+			}
+
+            a#btn_oldnavy {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #151c5a;
+				font-family: "Varela Round", serif;
+				font-size: 20px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: 1px;
+				transition: all .2s;
+			}
+
+			a#btn_oldnavy:hover {
+				background-color: #1f2354;
+                color: #ffffff;
+			}
+
+            a#btn_fitbit {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #0eaf94;
+				border: 2px solid #36d9ce;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_fitbit:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+            a#btn_electrabike {
+				display: block;
+				width: 100px;
+				height: 80px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #43ced6;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+
+			a#btn_electrabike:hover {
+				
+                -webkit-box-shadow: -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 5px 5px 15px 5px rgba(255,208,18,0); 
+                box-shadow: -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 5px 5px 15px 5px rgba(255,208,18,0);
+			}
+
+            a#btn_colorrun {
+        display: inline-block;
+        height: 45px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        margin: auto;
+        margin-top: 105px;
+        padding: 10px 30px 0px 30px;
+        background-color: #0099ff;
+        border: #ff00c3;
+        color: #fff;
+        font-size: 20px;
+        font-family: "Varela Round", sans-serif;
+        font-weight: bold;
+        transition: all .5s;
+        text-decoration: none;
+    }
+		
+
+			a#btn_colorrun:hover {
+                color: #151c5a;
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00a7f4+0,ecfcab+32,8cf285+62,ff7cd8+100 */
+                background: linear-gradient(to bottom,  #00a7f4 0%,#ecfcab 32%,#8cf285 62%,#ff7cd8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+			}
+
+	
+
+		</style>
+	</head>
+	<body>
+		
+		<main>
+
+			<h1>Button Styling &mdash; James Fawcett</h1>
+			
+			<div class="button_container">
+				<a href="http://www.spotify.com" target="_blank" id="btn_spotify">Spotify</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.amazon.com" target="_blank" id="btn_amazon"><i class="fa fa-amazon"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.twitter.com" target="_blank" id="btn_twitter">twitter</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.indiegogo.com" target="_blank" id="btn_indiegogo"><span>indiegogo</span></a>
+			</div>
+
+            <div class="button_container">
+				<a href="http://www.newyorker.com/" target="_blank" id="btn_newyorker"><span>the new yorker</span></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.moo.com/us/" target="_blank" id="btn_moo"><span>MOO</span></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.nike.com/us/en_us/" target="_blank" id="btn_nike"><span>NIKE</span></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cartoonnetwork"><span>CN</span></a>
+			</div>
+            <div class="button_container">
+				<a href="https://www.lyft.com/" target="_blank" id="btn_lyft">lyft</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.oldnavy.com/" target="_blank" id="btn_oldnavy"><span>OLD NAVY</span></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.fitbit.com/home" target="_blank" id="btn_fitbit"><i class="fa-solid fa-dumbbell"></i> Fitbit</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.bissingers.com/" target="_blank" id="btn_bissingers"><span>Bissingers</span></a>
+			</div>
+
+            <div class="button_container">
+				<a href="http://www.electrabike.com/" target="_blank" id="btn_electrabike"><i class="fa-solid fa-bicycle"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://thecolorrun.com/" target="_blank" id="btn_colorrun"><span>The Color Run</span></a>
+			</div>
+
+	
+
+		</main>	
+
+	</body>
+</html>
