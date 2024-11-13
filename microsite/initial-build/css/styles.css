@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    
+}
+
+
+header{
+    background-color:#000000;
+    width: 100%;
+    height:200px;
+}
+
+.harryhomepage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1{
+    background-color: #DC4171;
+}
+
+.section2{
+    background-color:#FFE4E4;
+    padding-bottom: 0px;
+}
+
+.item > div > img {
+    object-fit: cover;
+    width:100%; 
+    height:100%;
+  }
+
+.harrymiddleimage{
+    width:50%;
+    float:right;
+    height:auto;
+    object-fit: cover;
+    margin: 30px 80px 30px 80px;
+}
+
+.navbar{
+    background-color: #DC4171;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.navbartitles{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin: 5px 50px 5px 50px;
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+}
+
+h1{
+    font-family:"Anton SC", sans-serif;
+    letter-spacing:5px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    margin:0%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+h2{
+    font-family:"Antonio", sans-serif;
+    font-size: 50px;
+    color: #DEF8FF;
+    font-weight: 300;
+    margin-left: 80px;
+  
+}
+
+h3{
+    font-family:"Antonio", sans-serif;
+    font-size: 16px;
+}
+
+
+.learnmoremusicbutton{
+    background-color: #f7fdff;
+    color: #117B99;
+    border: none;
+    padding: 0.875rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin:10px 0 0 80px;
+    width: 100px;
+    font-family:"Montserrat", sans-serif;
+    text-decoration:none;
+}
+
+.learnmoremusicbutton:hover {
+    background-color: #abdcff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255, 111, 97, 0.2);
+}
+
+
+
+.learnmorefilmbutton{
+    background-color: #f7fdff;
+    color: #117B99;
+    border: none;
+    padding: 0.875rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin:10px 0 0 80px;
+    width: 100px;
+    font-family:"Montserrat", sans-serif;
+    text-decoration:none;
+
+}
+.learnmorefilmbutton:hover {
+    background-color: #abdcff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255, 111, 97, 0.2);
+}
+
+.learnmoreactivismbutton{
+
+    background-color: #f7fdff;
+    color: #117B99;
+    border: none;
+    padding: 0.875rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin:10px 80px 0 80px;
+    width: 100px;
+    font-family:"Montserrat", sans-serif;
+    text-decoration:none;
+    margin-bottom: 20px;
+
+}
+
+.learnmoreactivismbutton:hover {
+    background-color: #abdcff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255, 111, 97, 0.2);
+}
+
+
+.aboutbody{
+    font-family:"Montserrat", sans-serif;
+    margin-left:80px;
+    margin-bottom: 0;
+    color:#DEF8FF;
+    font-size:32px;
+    font-weight:400;
+    word-wrap:break-word;
+    background-color: #DC4171;
+    padding-bottom: 80px;
+
+}
+
+.descriptiontitle{
+    color:#117B99;
+    font-size: 40px;
+    font-family:"Antonio", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    padding-top: 50px;
+    margin: 0;
+    margin-left:80px;
+
+}
+
+.descriptionbody{
+    color:#117B99;
+    font-size: 32px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-left:80px;
+    margin-right:80px;
+}
+
+.babyharryphotos{
+    transform: scale(80%);
+    float: left;
+
+}
+
+footer{
+    background-color: #DC4171;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
